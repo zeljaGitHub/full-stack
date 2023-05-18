@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"  # Replace with your build command for the client
+  publish = "client/dist"   # Replace with the path to the client build directory
+
+[build.environment]
+  NODE_ENV = "production"    # Set the environment variable if required
